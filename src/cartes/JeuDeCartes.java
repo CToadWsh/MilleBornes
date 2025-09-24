@@ -2,7 +2,7 @@ package cartes;
 
 public class JeuDeCartes {
 	
-	private Configuration[] configuration;
+	private Configuration[] typesDeCartes;
 	
 	public String affichageJeuDeCartes() {
 		return "yes";
