@@ -7,6 +7,7 @@ public class Botte extends Probleme {
 		// TODO Auto-generated constructor stub
 	}
 	
+	@Override
 	public String toString() {
 		return getType().getBotte();
 	}

@@ -6,9 +6,9 @@ public enum Type {
 	CREVAISON("Crevaison", "Roue de secours", "Increvable"), 
 	ACCIDENT("Accident", "Reparation", "As du volant");
 	
-	private final String attaque;
-	private final String parade;
-	private final String botte;
+	private String attaque;
+	private String parade;
+	private String botte;
 	
 	Type (String attaque, String parade, String botte){	
 		this.attaque = attaque;
@@ -17,14 +17,14 @@ public enum Type {
 	}
 	
 	public String getAttaque(){
-		return this.attaque;
+		return attaque;
 	}
 	
 	public String getParade(){
-		return this.parade;
+		return parade;
 	}
 	
 	public String getBotte(){
-		return this.botte;
+		return botte;
 	}
 }
